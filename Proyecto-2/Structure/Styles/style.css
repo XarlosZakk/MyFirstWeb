@@ -1,0 +1,560 @@
+/* Librerias de Fuentes Importadas */
+@import url("https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cal+Sans&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cal+Sans&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #f8f4ef;
+}
+
+header {
+    background-color: #f8f4ef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+}
+
+header h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: #000;
+}
+
+.links {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    transition: all 0.3s ease-in-out;
+}
+
+.links:hover {
+    color: #1b99bc;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.links a {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+.container {
+    background-image: url("/paginas web/Proyecto-2/Structure/Images/imagenes_empresarial/airplane2.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 150px 100px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.title_eslogan {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: #000000;
+    text-shadow: 5px 5px 10px whitesmoke;
+    text-align: center;
+}
+
+.container p {
+    color: #333;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 800px;
+}
+
+.btnEslogan {
+    background-color: #1b43bc;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btnEslogan:hover {
+    background-color: #fff;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    border: 2px solid #1b43bc;
+    cursor: pointer;
+}
+
+.btnEslogan:active {
+    background-color: #1b43bc;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    cursor: pointer;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+}
+
+.services .tituloCards {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: #000000;
+    text-shadow: 5px 5px 10px whitesmoke;
+}
+
+.cards_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    width: 100%;
+}
+
+.cards_service {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+    overflow: hidden;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1),
+        box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    position: relative;
+}
+
+.cards_service:hover {
+    transform: translateY(-12px) scale(1.03);
+    box-shadow: 0 16px 40px 0 rgba(27, 67, 188, 0.18);
+}
+
+.cards_service img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.cards_service .titulocard {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    color: #1b43bc;
+}
+
+.cards_service h3 {
+    margin: 0;
+}
+
+.cards_service p {
+    padding: 0 20px 20px;
+    text-align: center;
+    line-height: 1.6;
+    flex: 1;
+}
+
+/* codigo de carrucel de imagenes */
+.titulo {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 50px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.slider-box {
+    width: 100%;
+    max-width: 1280px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+.slider-box ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-box li {
+    width: 100%;
+    list-style: none;
+    position: relative;
+}
+
+.texto {
+    position: absolute;
+    text-align: center;
+    padding: 0 10%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.texto h2 {
+    font-size: 45px;
+    margin-bottom: 35px;
+}
+
+.slider-box img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+@keyframes slide {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
+}
+
+/* Footer mejorado */
+footer {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+    color: #fff;
+    padding: 60px 0 30px;
+    margin-top: 80px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-top {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-section h3 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 24px;
+    color: #c0dd21;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.footer-section h3::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: #c0dd21;
+    border-radius: 2px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.contact-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateX(5px);
+}
+
+.contact-item i {
+    color: #c0dd21;
+    font-size: 18px;
+    width: 20px;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    color: #c0dd21;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    background: #c0dd21;
+    color: #1a1a1a;
+    transform: translateY(-3px);
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 30px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: #aaa;
+    font-size: 14px;
+}
+
+.blog-button {
+    display: inline-block;
+    background: linear-gradient(45deg, #1b43bc, #c0dd21);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    margin-top: 15px;
+}
+
+.blog-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(27, 67, 188, 0.3);
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 15px;
+    }
+
+    header ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    .links {
+        font-size: 16px;
+    }
+
+    .links a {
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 80px 20px;
+        margin: 0 20px;
+    }
+
+    .title_eslogan {
+        font-size: 28px;
+    }
+
+    .services .tituloCards {
+        font-size: 32px;
+    }
+
+    .cards_container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .titulo {
+        font-size: 32px;
+        padding: 30px 20px 20px;
+    }
+
+    .slider-box {
+        margin: 30px 20px 0;
+        border-radius: 20px;
+    }
+
+    .slider-box img {
+        height: 250px;
+        border-radius: 20px;
+    }
+
+    .texto {
+        padding: 20px;
+        top: 50%;
+    }
+
+    .texto h2 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .texto p {
+        font-size: 14px;
+    }
+
+    .footer-top {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    .links {
+        font-size: 14px;
+    }
+
+    .links a {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 60px 15px;
+        margin: 0 15px;
+    }
+
+    .title_eslogan {
+        font-size: 24px;
+    }
+
+    .btnEslogan {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    .services .tituloCards {
+        font-size: 28px;
+    }
+
+    .titulo {
+        font-size: 28px;
+    }
+
+    .texto h2 {
+        font-size: 20px;
+    }
+
+    .texto p {
+        font-size: 12px;
+    }
+
+    .slider-box img {
+        height: 200px;
+    }
+}

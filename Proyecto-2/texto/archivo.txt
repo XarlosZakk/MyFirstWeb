@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ?Para detallar sobre el autor, descripcion, palabras claves -->
+    <meta name="author" content="Carl'sDeb"> 
+    <meta name="keywords" content="Agencia, Viajes, Aviones, Vuelos, Pasajes, Reservaciones, Wolrd">
+    <meta name="description" content="Prototipo de pagina web de una Aerolinea EC">
+    <!-- ?Para redes Sociales -->
+    <meta property="og:title" content="AirLatam EC">
+    <meta property="og:description" content="Prototipo de una web de una Aerolinia AirLatamEC">
+    <meta property="og:url" content="https://www.ejemplo.com/pagina">
+    <!-- ?sobre la presentacion del URL -->
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="">
+    <title>AirLatam</title>
+    <link rel="icon" href="/Paginas Web/Proyecto-2/Structure/Images/imagenes_empresarial/aviones.png">
+    <link rel="stylesheet" href="/Paginas Web/Proyecto-2/Structure/Styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <!-- *ENCABEZADO DE LA WEB -->
+    <header>
+
+        <h1>AirLatam</h1>
+        <ul>
+            <li class="links"><a href=""><i class="fa-solid fa-city"></i> Empresa</a></li>
+            <li class="links"><a href=""><i class="fa-solid fa-plane"></i> Vuelos</a></li>
+            <li class="links"><a href=""><i class="fa-solid fa-money-bill"></i> Ofertas</a></li>
+            <li class="links"><a href=""><i class="fa-solid fa-globe"></i> Sucursales</a></li>
+            <li class="links"><a href=""><i class="fa-solid fa-handshake"></i> Servicios</a></li>
+        </ul>
+    </header>
+    <!-- *Cuerpo de la Web -->
+    <main>
+        <!-- * slogan de la empresa -->
+        <div class="container">
+            <h2 class="title_eslogan">Vive la mejor Experiencia de Volar con Nosotros</h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, deserunt. Deserunt consequatur
+                aspernatur eligendi alias quia, facere ipsum fuga qui, sint dicta accusantium exercitationem ipsam vero
+                ducimus corrupti ea velit?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quas aliquam labore id saepe
+                expedita perspiciatis pariatur dolorem? Voluptates voluptatibus nostrum magni consectetur optio
+                voluptatum libero, ab nam fugiat. Repellat?
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum excepturi esse amet tempora! Atque
+                tenetur animi est voluptas alias architecto voluptatem consequuntur! Nemo perferendis ipsam quibusdam?
+                Exercitationem beatae eos unde.
+            </p>
+            <button class="btnEslogan">Sobre Nosotros</button> <!-- !mas sobre la empresa-->
+        </div>
+        <!-- * cards de algunos de los servicios -->
+        <section class="services">
+            <h2 class="title_eslogan tituloCards">Algunos de Nuestros Servicios</h2>
+            <div class="cards_service">
+                <i class="fa-solid fa-web-awesome titulocard">
+                    <h3>Acceso a la sala Vip</h3>
+                </i>
+                <p class="pf">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero unde dolores facere ad facilis esse,
+                    eveniet totam ipsa, amet inventore temporibus asperiores numquam sint repellat laborum earum maxime
+                    suscipit cum.
+                </p>
+                <img src="/Paginas Web/Proyecto-2/Structure/Images/imagenes_empresarial/salaVip.jpg" alt="salaVip">
+            </div>
+            <div class="cards_service">
+                <i class="fa-solid fa-utensils titulocard">
+                    <h3>Servicio de Comida</h3>
+                </i>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptatem omnis repellat ipsa
+                    voluptatum itaque numquam, iste totam, voluptate eos fugit perferendis sit porro nemo alias
+                    necessitatibus, ducimus quisquam! Sequi.
+                </p>
+                <img src="/Paginas Web/Proyecto-2/Structure/Images/imagenes_empresarial/Servicio_comida.jpg"
+                    alt="servicioComida">
+            </div>
+            <div class="cards_service">
+                <i class="fa-solid fa-toolbox titulocard">
+                    <h3>Servicio de Equipaje</h3>
+                </i>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci tempore molestiae voluptatum
+                    possimus vitae voluptate laudantium nam ea nihil suscipit blanditiis similique repellendus accusamus
+                    commodi illo a pariatur, error dolore?
+                </p>
+                <img src="/Paginas Web/Proyecto-2/Structure/Images/imagenes_empresarial/equipaje.jpg"
+                    alt="servicioEquipaje">
+            </div>
+            <div class="cards_service">
+                <i class="fa-solid fa-taxi titulocard">
+                    <h3>Servicio de taxi</h3>
+                </i>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque doloribus nihil neque impedit debitis
+                    amet modi nam at consequatur consequuntur, incidunt, aliquid suscipit magni excepturi laborum, aut
+                    pariatur asperiores ratione.
+                </p>
+                <img src="/Paginas Web/Proyecto-2/Structure/Images/imagenes_empresarial/serviceTaxi.jpg"
+                    alt="servicioTaxi">
+            </div>
+        </section>
+
+        
+        <!-- *algunos de los destinos de la empresa -->
+        <h2 class="titulo"> Algunos de Nuestros Destinos</h2>
+        <div class="slider-box">
+            <ul>
+                <!--* Primer bloque  -->
+                <li>
+                    <img src="/Paginas Web/Proyecto-2/Structure/Images/imagenes_empresarial/holanda.jpg"
+                        alt="Bandera_holanda">
+                    <div class="texto">
+                        <h2>Netherlands</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nobis excepturi, nulla
+                            mollitia error quod, dolor harum voluptatum asperiores minima facilis tenetur sit explicabo
+                            numquam labore incidunt cumque illum iusto.
+                        </p>
+                    </div>
+                </li>
+                <!-- * segundo bloque -->
+                <li>
+                    <img src="/Paginas Web/Proyecto-2/Structure/Images/imagenes_empresarial/japon.jpg"
+                        alt="japon">
+                    <div class="texto">
+                        <h2>Japon</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nobis excepturi, nulla
+                            mollitia error quod, dolor harum voluptatum asperiores minima facilis tenetur sit explicabo
+                            numquam labore incidunt cumque illum iusto.
+                        </p>
+                    </div>
+                </li>
+                <!-- * tercer bloque -->
+                <li>
+                    <img src="/Paginas Web/Proyecto-2/Structure/Images/imagenes_empresarial/suiza.jpg"
+                        alt="Suiza">
+                    <div class="texto">
+                        <h2>Suiza</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nobis excepturi, nulla
+                            mollitia error quod, dolor harum voluptatum asperiores minima facilis tenetur sit explicabo
+                            numquam labore incidunt cumque illum iusto.
+                        </p>
+                    </div>
+                </li>
+                <!-- * Cuarto bloque -->
+                <li>
+                    <img src="/Paginas Web/Proyecto-2/Structure/Images/imagenes_empresarial/ecuador.jpg"
+                        alt="ecuador">
+                    <div class="texto">
+                        <h2>Ecuador</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nobis excepturi, nulla
+                            mollitia error quod, dolor harum voluptatum asperiores minima facilis tenetur sit explicabo
+                            numquam labore incidunt cumque illum iusto.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <!-- *parte final de la web -->
+    <footer>
+        <div class="final">
+            <h2>Nuestros Contactos</h2>
+                <ul class="contactos">
+                    <li><i class="fa-solid fa-phone"> TELF : 04-2394758 </i></li>
+                    <li><i class="fa-solid fa-headset"></i> Servicio Tecnico : Ext 210 </li>
+                    <li><i class="fa-solid fa-envelope"></i> Email: Ejemplo201@Gmail.com.ec </li>
+                    <li><i class="fa-brands fa-instagram"></i> Instagram : Ejemplo@23 </li>
+                    <li><i class="fa-brands fa-tiktok"></i> TikTok : Ejemplo_EC123</li>
+                    <li><i class="fa-solid fa-blog"></i> Nuestro Blog </li>
+                    <a href="///" class="BlogButton">Aqui</a>
+                </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+
+
+css------------------------------------------------------------------------------------------------------------------------------------\
+
+/* Librerias de Fuentes Importadas */
+@import url("https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cal+Sans&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cal+Sans&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+/*
+font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #f8f4ef;
+}
+
+header {
+  background-color: #f8f4ef;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+ul {
+  display: flex;
+  gap: 30px;
+}
+
+header h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color: #000;
+}
+
+.links {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  transition: all 0.3s ease-in-out;
+}
+
+.links:hover {
+  color: #1b99bc;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: underline;
+}
+
+.links a {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px 0;
+}
+
+.container {
+  background-image: url("/Paginas Web/Proyecto-2/Structure/Images/imagenes_empresarial/airplane2.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 150px 100px;
+}
+
+.title_eslogan {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color: #000000;
+  text-shadow: 5px 5px 10px whitesmoke;
+}
+
+.btnEslogan {
+  background-color: #1b43bc;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btnEslogan:hover {
+  background-color: #fff;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  border: 2px solid #1b43bc;
+  cursor: pointer;
+}
+
+.btnEslogan:active {
+  background-color: #1b43bc;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  border: none;
+  cursor: pointer;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.services .tituloCards {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+  position: absolute;
+  top: -60px;
+  left: 0;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color: #000000;
+  text-shadow: 5px 5px 10px whitesmoke;
+}
+
+.cards_service {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.cards_service {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.15);
+  overflow: hidden;
+  width: 300px;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1),
+    box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  position: relative;
+}
+
+.cards_service:hover {
+  transform: translateY(-12px) scale(1.03);
+  box-shadow: 0 16px 40px 0 rgba(27, 67, 188, 0.18);
+}
+
+.cards_service img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+
+.cards_service {
+  padding: 24px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+}
+
+/* codigo de carrucel de imagenes */
+.titulo {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 50px;
+}
+
+.slider-box {
+  width: 1280px;
+  height: auto;
+  margin: 50px auto 0;
+  overflow: hidden;
+  border-radius: 50px;
+}
+
+.slider-box ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider-box li {
+  width: 100%;
+  list-style: none;
+  position: relative;
+}
+
+.texto {
+  position: absolute;
+  text-align: center;
+  padding: 0 250px;
+  top: 250px;
+  color: whitesmoke;
+}
+
+.texto h2 {
+  font-size: 45px;
+  margin-bottom: 35px;
+}
+.slider-box img {
+  width: 100%;
+  border-radius: 50px;
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+
+@media (max-width: 991px) {
+  body {
+    padding: 30px;
+  }
+  .slider-box {
+    width: 100%;
+  }
+  .texto {
+    top: 50px;
+    padding: 0 25px;
+  }
+  .texto h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+  .texto p {
+    font-size: 15px;
+  }
+}
+
+/* diseno del footer de la web */
+footer {
+  background-color: #282828;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.final {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 5px 0px 10px whitesmoke;
+}
+
+.final h2 {
+  padding: 4rem;
+  color: rgb(192, 221, 33);
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+}
+
+.contactos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.contactos li {
+  color: rgb(192, 221, 33);
+  background-color: black;
+  padding: 10px 20px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  border: 5px solid #a7afc6;
+  border-radius: 10px;
+}

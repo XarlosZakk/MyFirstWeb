@@ -84,3 +84,111 @@ ul {
     transition: all 0.3s ease-in-out;
     text-decoration: none;
 }
+
+/* ! decoracion del Main de la pagina */
+.container{
+    width: 880px;
+    height: 393px;
+    background-color: #326771;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 14px;
+    gap: 102px;
+    line-height: 22px;
+    margin: 100px 45vh;
+}
+
+.subContainer{
+    background-color: #000;
+    width: 516px;
+    height: 393px;
+    color: #42D9C8;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: -1.85px;
+    line-height: 96.2px;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.posContainer{
+    color: #42D9C8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    gap: 40px;
+    line-height: 22px;
+    margin-right: 20px;
+
+}
+
+.posUno{
+    width: 375px;
+    height: 170px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #42D9C8;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 34px;
+}
+
+.buttons1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    gap: 90px;
+}
+
+.posDos{
+    color: #42D9C8;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.posDos a{
+    background-color: #28464B;
+    padding: 10px;
+    color: #42D9C8;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.posTres{
+    color: #42D9C8;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.posTres a{
+    background-color: #28464B;
+    padding: 10px;
+    color: #42D9C8;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.posDos a:hover{
+    background-color: #1b99bc;
+    color: #fff;
+}
+
+.posTres a:hover{
+    background-color: #1b99bc;
+    color: #fff;
+}

@@ -29,6 +29,12 @@ header h1 {
   color: #1b99bc;
 }
 
+header h1:hover {
+  color: #b9c514;
+  transition: 0.5s;
+  text-shadow: #15a4cc 0px 0px 10px;
+}
+
 .encabezado2 {
   display: felx;
   flex-direction: column;
@@ -58,6 +64,12 @@ ul {
   object-fit: cover;
   margin-right: 20px;
   background-color: #fff;
+}
+
+.imgEmp:hover {
+  transform: scale(1.1);
+  transition: transform 0.8s;
+  box-shadow: 0px 0px 10px #42d9c8;
 }
 
 .links {
@@ -217,6 +229,11 @@ ul {
   height: 300px;
   border-radius: 20px;
   margin: 0 auto;
+  transition: transform 0.3s;
+}
+
+.map:hover {
+  transform: translateY(-10px);
 }
 
 .Block1 {
@@ -276,4 +293,42 @@ ul {
   border-radius: 50%;
   object-fit: cover;
   margin: 10px auto;
+}
+
+.container3{
+  background-color: #28464b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.marcoImg{
+  background-color: #326771;
+  margin: 100px;
+  width:  1200px;
+  height: 500px;
+  border-radius: 20px;
+  background-image: url(/ProyectoWeb/Structure/Images/imagenes_empresarial/banerAirPlane.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.marcoImg:hover{
+  transform: scale(1.05);
+  transition: transform 0.8s;
+  box-shadow: 0px 0px 10px #42d9c8;
+}
+
+.marcoImg h2 {
+  color: #000000;
+  font-size: 50px;
+  font-family: "Bebas Neue", sans-serif;
+  text-shadow: #0ad09c 0px 0px 10px;
+  text-align: center;
+  margin-top: 150px;
+}
+.marcoImg h2:hover {
+  color: #b9c514;
+  transition: 1s;
+  text-shadow: #15a4cc 0px 0px 10px;
 }

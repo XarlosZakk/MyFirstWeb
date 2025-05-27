@@ -3,3 +3,5 @@
 //capturando el elemento
 let valorSelector = document.getElementById("baner");
 console.log(valorSelector);
+console.log(valorSelector);
+

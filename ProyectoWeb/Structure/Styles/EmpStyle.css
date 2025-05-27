@@ -320,7 +320,7 @@ ul {
 }
 
 .marcoImg h2 {
-  color: #000000;
+  color: #101010;
   font-size: 50px;
   font-family: "Bebas Neue", sans-serif;
   text-shadow: #0ad09c 0px 0px 10px;
@@ -331,4 +331,60 @@ ul {
   color: #b9c514;
   transition: 1s;
   text-shadow: #15a4cc 0px 0px 10px;
+}
+
+.Mision-vision{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #326771;
+}
+
+.DBcard{
+  background: linear-gradient(135deg, #28464b 0%, #32b9a981 100%);;
+  width: 700px;
+  height: 350px;
+  margin-top: 100px;
+  border-radius: 20px;
+}
+
+.DBcard img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 20px;
+  margin-left: 33vh;
+}
+
+.DBcard img:hover{
+  transform: scale(1.1);
+  transition: transform 0.8s;
+  box-shadow: 0px 0px 10px #42d9c8;
+}
+
+.DBcard h2{
+  margin: 10px 0px;
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+  color: #000000;
+  text-shadow: #42d9c8 0px 0px 10px;
+}
+
+.DBcard p{
+  text-align: justify;
+  margin: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  color: #000000;
+  font-size: 23px;
+  text-shadow: #42d9c8 0px 0px 10px;
+}
+
+.DBcard:hover{
+  transform: scale(1.1);
+  transition: transform 1s;
+  box-shadow: 0px 0px 10px #42d9c8;
 }
